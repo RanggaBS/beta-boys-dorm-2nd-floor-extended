@@ -1,0 +1,747 @@
+<!-- Spot light count: 15 -->
+<!-- Point light count: 9 -->
+
+<!-- ======================================================================= -->
+<!-- Stairwell                                                               -->
+<!-- ======================================================================= -->
+
+<!-- Rotation -> α: -15, β: 0, γ: 110 -->
+
+<LIGHT Type="SpotLight" Name="Floor2_StairwellWindow1_20degYaw_15degPitch" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>10</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>-0.342 -0.940 0.000</Row>
+    <Row>0.908 -0.330 0.259</Row>
+    <Row>-0.243 0.089 0.966</Row>
+  </Rotation>
+  <Translation>-519 299 40</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2.5</Dimmer>
+  <SpotAngleOuter>20</SpotAngleOuter>
+  <SpotAngleInner>15</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="SpotLight" Name="Floor2_StairwellWindow2_20degYaw_15degPitch" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>10</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>-0.342 -0.940 0.000</Row>
+    <Row>0.908 -0.330 0.259</Row>
+    <Row>-0.243 0.089 0.966</Row>
+  </Rotation>
+  <Translation>-524 299 40</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2.5</Dimmer>
+  <SpotAngleOuter>20</SpotAngleOuter>
+  <SpotAngleInner>15</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+
+<LIGHT Type="PointLight" Name="Floor2_Stairwell_LeftWindow_Fill" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.752941 0.501961</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-521.8 307.5 38.9</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.3</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.8</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor2_Stairwell_RightWindow_Fill" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.752941 0.501961</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-527 307.5 38.9</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.3</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.8</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor2_Stairwell_BelowFoyer_Fill" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.752941 0.501961</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-524.64 314.74 36.56</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.3</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.5</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+
+<!-- ======================================================================= -->
+<!-- Hallway                                                                 -->
+<!-- ======================================================================= -->
+
+<!-- Rotation -> α: 0, β: 90, γ: 0 -->
+
+<LIGHT Type="SpotLight" Name="Floor2_HallwayLamp1_copyFrom_room01_02" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.945 0.725</DiffuseColor>
+  <SpecularColor>1 0.933 0.675</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-481.83 318.57 41.28</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2.3</Dimmer>
+  <SpotAngleOuter>77</SpotAngleOuter>
+  <SpotAngleInner>47</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="SpotLight" Name="Floor2_HallwayLamp2" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.945 0.725</DiffuseColor>
+  <SpecularColor>1 0.933 0.675</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-492.14 318.57 41.28</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2.3</Dimmer>
+  <SpotAngleOuter>77</SpotAngleOuter>
+  <SpotAngleInner>47</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="SpotLight" Name="Floor2_HallwayLamp3" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.945 0.725</DiffuseColor>
+  <SpecularColor>1 0.933 0.675</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-502.64 318.57 41.28</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2.3</Dimmer>
+  <SpotAngleOuter>77</SpotAngleOuter>
+  <SpotAngleInner>47</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="SpotLight" Name="Floor2_HallwayLamp4" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.945 0.725</DiffuseColor>
+  <SpecularColor>1 0.933 0.675</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-512.64 318.57 41.28</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2.3</Dimmer>
+  <SpotAngleOuter>77</SpotAngleOuter>
+  <SpotAngleInner>47</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="SpotLight" Name="Floor2_HallwayLamp5" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.945 0.725</DiffuseColor>
+  <SpecularColor>1 0.933 0.675</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-522.76 318.57 41.28</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2.3</Dimmer>
+  <SpotAngleOuter>77</SpotAngleOuter>
+  <SpotAngleInner>47</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+
+<!-- Rotation -> α: 135, β: 30, γ: -120 -->
+
+<LIGHT Type="SpotLight" Name="Floor2_HallwayEndWindow120degree_copyFromDGame2B" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>-0.433 0.750 0.500</Row>
+    <Row>0.436 0.660 -0.612</Row>
+    <Row>-0.789 -0.047 -0.612</Row>
+  </Rotation>
+  <Translation>-475 316 41.5</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>3</Dimmer>
+  <SpotAngleOuter>60</SpotAngleOuter>
+  <SpotAngleInner>55</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+
+<!-- ======================================================================= -->
+<!-- Bathroom                                                                -->
+<!-- ======================================================================= -->
+
+<!-- Rotation -> α: 0, β: 90, γ: 0 -->
+
+<LIGHT Type="SpotLight" Name="Floor2_Bath_CeilLamp1_ToiletRoom" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.945 0.725</DiffuseColor>
+  <SpecularColor>1 0.933 0.675</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-515.5 325.5 41.8</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2</Dimmer>
+  <SpotAngleOuter>85</SpotAngleOuter>
+  <SpotAngleInner>60</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="SpotLight" Name="Floor2_Bath_CeilLamp2_ShowerRoom" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.945 0.725</DiffuseColor>
+  <SpecularColor>1 0.933 0.675</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-523.19 326.04 41.32</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2</Dimmer>
+  <SpotAngleOuter>85</SpotAngleOuter>
+  <SpotAngleInner>55</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+
+<!-- Rotation -> α: 15, β: 0, γ: -75 -->
+
+<LIGHT Type="SpotLight" Name="Floor2_Bath_Behind3Windows_15degYaw_15degPitch" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>8</Radius>
+  <_4_>3</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.878 0.753</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0.259 0.966 0.000</Row>
+    <Row>-0.933 0.250 -0.259</Row>
+    <Row>-0.250 0.067 0.966</Row>
+  </Rotation>
+  <Translation>-522 338 41.5</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>3</Dimmer>
+  <SpotAngleOuter>30</SpotAngleOuter>
+  <SpotAngleInner>20</SpotAngleInner>
+  <SpotExponent>3</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>1</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+
+<!-- ======================================================================= -->
+<!-- Player Room                                                             -->
+<!-- ======================================================================= -->
+
+<!-- Rotation -> α: -20, β: 0, γ: 110 -->
+
+<LIGHT Type="SpotLight" Name="Floor2_PlayerRoom_BehindLeftWindow1_20degree" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>-0.342 -0.940 0.000</Row>
+    <Row>0.883 -0.321 0.342</Row>
+    <Row>-0.321 0.117 0.940</Row>
+  </Rotation>
+  <Translation>-484 305 41.5</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>3</Dimmer>
+  <SpotAngleOuter>35</SpotAngleOuter>
+  <SpotAngleInner>30</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="SpotLight" Name="Floor2_PlayerRoom_BehindRightWindow2_20degree" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>-0.342 -0.940 0.000</Row>
+    <Row>0.883 -0.321 0.342</Row>
+    <Row>-0.321 0.117 0.940</Row>
+  </Rotation>
+  <Translation>-489 305 41.5</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>3</Dimmer>
+  <SpotAngleOuter>35</SpotAngleOuter>
+  <SpotAngleInner>30</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor2_PlayerRoom_LeftWindow_Fill" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.878431 0.752941</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-485 309 39.5</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.3</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.5</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor2_PlayerRoom_RightWindow_Fill" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.878431 0.752941</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-490 309 39.5</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.3</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.5</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+
+<!-- ======================================================================= -->
+<!-- Attic Room                                                              -->
+<!-- ======================================================================= -->
+
+<!-- Rotation -> α: -45, β: 0, γ: -90 -->
+
+<LIGHT Type="SpotLight" Name="Floor2_AtticRoom_BehindWindow_30degree" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>5</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0.000 1.000 0.000</Row>
+    <Row>-0.707 0.000 -0.707</Row>
+    <Row>-0.707 0.000 0.707</Row>
+  </Rotation>
+  <Translation>-492 332 40</Translation>
+  <Scale>1.5</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>3</Dimmer>
+  <SpotAngleOuter>60</SpotAngleOuter>
+  <SpotAngleInner>55</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor2_AtticRoom_WindowFill" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>6</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 1 1</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-490.4 328 39.5</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.3</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.3</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+
+<!-- ======================================================================= -->
+<!-- Attic                                                                   -->
+<!-- ======================================================================= -->
+
+<!-- Rotation -> α: 0, β: 30, γ: -30 -->
+
+<LIGHT Type="SpotLight" Name="Floor3_AtticWindow_30degreeSideAndDown" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>10</Radius>
+  <_4_>1</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0 0 0</AmbientColor>
+  <DiffuseColor>1 0.949 0.749</DiffuseColor>
+  <SpecularColor>1 0.949 0.749</SpecularColor>
+  <Rotation>
+    <Row>0.750 0.433 0.500</Row>
+    <Row>-0.500 0.866 0.000</Row>
+    <Row>-0.433 -0.250 0.866</Row>
+  </Rotation>
+  <Translation>-535 318 47</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>1</ConstantAttenuation>
+  <LinearAttenuation>0</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>2</Dimmer>
+  <SpotAngleOuter>40</SpotAngleOuter>
+  <SpotAngleInner>35</SpotAngleInner>
+  <SpotExponent>1</SpotExponent>
+  <CastShadows>1</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>4096</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>1</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0.004</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor3_AtticAmbient1" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0.494118 0.415686 0.345098</AmbientColor>
+  <DiffuseColor>0.600000 0.470588 0.458824</DiffuseColor>
+  <SpecularColor>1.000000 1.000000 1.000000</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-490.5 315 50</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.5</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.8</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor3_AtticAmbient2" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0.494118 0.415686 0.345098</AmbientColor>
+  <DiffuseColor>0.600000 0.470588 0.458824</DiffuseColor>
+  <SpecularColor>1.000000 1.000000 1.000000</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-502.5 315 50</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.5</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.8</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>
+<LIGHT Type="PointLight" Name="Floor3_AtticAmbient3" Cutscene="0" _18_="0" _19_="0" CO="0" DayTime="1">
+  <Radius>7</Radius>
+  <_4_>0</_4_>
+  <_8_>0</_8_>
+  <AmbientColor>0.494118 0.415686 0.345098</AmbientColor>
+  <DiffuseColor>0.600000 0.470588 0.458824</DiffuseColor>
+  <SpecularColor>1.000000 1.000000 1.000000</SpecularColor>
+  <Rotation>
+    <Row>0 0 1</Row>
+    <Row>0 1 0</Row>
+    <Row>-1 0 0</Row>
+  </Rotation>
+  <Translation>-515 315 50</Translation>
+  <Scale>1</Scale>
+  <ConstantAttenuation>0</ConstantAttenuation>
+  <LinearAttenuation>0.5</LinearAttenuation>
+  <QuadraticAttenuation>0</QuadraticAttenuation>
+  <Dimmer>1.8</Dimmer>
+  <SpotAngleOuter>0</SpotAngleOuter>
+  <SpotAngleInner>0</SpotAngleInner>
+  <SpotExponent>0</SpotExponent>
+  <CastShadows>0</CastShadows>
+  <StaticShadows>0</StaticShadows>
+  <SizeHint>1024</SizeHint>
+  <StrictlyObserveSizeHint>0</StrictlyObserveSizeHint>
+  <RenderBackfaces>0</RenderBackfaces>
+  <UseDefaultDepthBias>0</UseDefaultDepthBias>
+  <DepthBias>0</DepthBias>
+</LIGHT>

@@ -1,0 +1,18 @@
+# My stuff
+_DEV
+
+# Workspace configurations
+.vscode
+
+# Type definitions
+types
+
+# Compiled Lua files
+Scripts/**/*.lur
+_build
+
+# Release files
+_release
+
+# 1% Better Project lighting files template
+Graphics/1-percent-better*.xml
