@@ -1,6 +1,6 @@
 # Beta Boys' Dorm 2nd Floor Extended
 
-[![Mod Showcase](https://img.youtube.com/vi/qDYjSEb6sUI/maxresdefault.jpg)](https://youtu.be/qDYjSEb6sUI)
+[![Mod Showcase](https://img.youtube.com/vi/3tbJK_lIytA/maxresdefault.jpg)](https://youtu.be/3tbJK_lIytA)
 
 > Bringing life back to a forgotten floor — restored, expanded, and made functional.
 
