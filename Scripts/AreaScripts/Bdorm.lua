@@ -463,6 +463,16 @@ function main()
   B2PJUniqueValue = PedGetUniqueModelStatus(228)
   CreateThread('F_BDormAlarm')
   F_ToggleArcadeScreens()
+  do
+    local initialHour, _ = ClockGet()
+    if initialHour >= 19 or initialHour < 8 then
+      gBoysPJ = false
+      F_SetBoysPJ()
+    else
+      gBoysPJ = true
+      F_SetBoysRegular()
+    end
+  end
   while not (AreaGetVisible() ~= 14 or SystemShouldEndScript()) do
     UpdateAmbientSpawners()
     if
@@ -532,11 +542,9 @@ function main()
       end
     end
     local hour, minute = ClockGet()
-    if hour == 8 and 20 <= minute and gBoysPJ == true then
+    if (hour >= 8 and hour < 19) and gBoysPJ == true then
       F_SetBoysRegular()
-    elseif hour == 8 and minute < 20 and gBoysPJ == false then
-      F_SetBoysPJ()
-    elseif 22 < hour or hour < 8 and gBoysPJ == false then
+    elseif (hour >= 19 or hour < 8) and gBoysPJ == false then
       F_SetBoysPJ()
     end
     F_ChemistrySet()
@@ -829,6 +837,11 @@ function F_SetBoysPJ()
     PedSetUniqueModelStatus(224, 1)
     PedSetUniqueModelStatus(227, 1)
     PedSetUniqueModelStatus(228, 1)
+    PedSetUniqueModelStatus(225, 1) -- Sheldon PJ
+    PedSetUniqueModelStatus(226, 1) -- Pedro PJ
+    -- Disable regular models
+    PedSetUniqueModelStatus(66, -1)
+    PedSetUniqueModelStatus(69, -1)
   end
   F_UnlockModelChanges()
   gBoysPJ = true
@@ -839,6 +852,11 @@ function F_SetBoysRegular()
     PedSetUniqueModelStatus(224, -1)
     PedSetUniqueModelStatus(227, -1)
     PedSetUniqueModelStatus(228, -1)
+    PedSetUniqueModelStatus(225, -1) -- Sheldon PJ
+    PedSetUniqueModelStatus(226, -1) -- Pedro PJ
+    -- Enable regular models
+    PedSetUniqueModelStatus(66, 1)
+    PedSetUniqueModelStatus(69, 1)
   end
   F_UnlockModelChanges()
   gBoysPJ = false
