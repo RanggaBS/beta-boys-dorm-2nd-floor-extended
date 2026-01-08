@@ -6,9 +6,9 @@
 
 ## Download
 
-| NexusMods                                                                                                                                                      | Mirror                                                                                                         |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [![Download on NexusMods](https://img.shields.io/badge/DOWNLOAD-NEXUSMODS-orange?style=for-the-badge)](https://nexusmods.com/bullyscholarshipedition/mods/306) | [![Download SE](https://img.shields.io/badge/DOWNLOAD-MIRROR-blue?style=for-the-badge)](https://sfl.gl/WbtuWP) |
+| NexusMods                                                                                                                                                      | Mirror                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [![Download on NexusMods](https://img.shields.io/badge/DOWNLOAD-NEXUSMODS-orange?style=for-the-badge)](https://nexusmods.com/bullyscholarshipedition/mods/306) | [![Download SE](https://img.shields.io/badge/DOWNLOAD-MIRROR-blue?style=for-the-badge)](https://sfl.gl/hELKAquA) |
 
 ---
 
@@ -85,6 +85,16 @@ This extension focuses on **immersion and usability** — adding pedestrian acti
 ## Changelog
 
 > **EA** = Early Access
+
+### 1.1.0
+
+- script/Bdorm.lua
+  - Added Pedro and Sheldon spawning in the Boys Dorm
+  - Restored their night pajama appearances
+
+### 1.0.0
+
+- Initial public release
 
 ### EA_2025-11-07
 
